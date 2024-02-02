@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de preguntas sobre Napoleon y Josefina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('foto.jpg') center/cover no-repeat; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: black; 
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            background-color:black; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d62828; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Napoleon Y Josefina</h1>
+        <div id="game"></div>
+    </div>
+    <script src="ejercicios.js"></script>
+</body>
+</html>
